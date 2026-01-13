@@ -1,11 +1,11 @@
+import os
 import functions_framework
 import requests
 import json
 from google.cloud import storage
 
-# CONFIGURATION
-OWM_API_KEY = "20cd756e0258ac8ebbbe75a41c2d0c4e"
-AQICN_API_KEY = "139b58752a2d617c73003a4ec85ba999dee4e6c9"
+OWM_API_KEY = os.environ.get("OWM_API_KEY")
+AQICN_API_KEY = os.environ.get("AQICN_API_KEY")
 BUCKET_NAME = "bucket_mspr3"
 FOLDER = "environment-data/"
 VILLES = ["Paris", "Lyon", "Marseille", "Lille", "Toulouse", "Nice", "Bordeaux", "Strasbourg", "Nantes", "Rennes"]
