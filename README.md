@@ -38,8 +38,7 @@ Pipeline de données automatisé :
 - **Automatisation complète** du pipeline (extractions horaires, nettoyage, agrégation, alertes quotidiennes).
 - **Conformité RGPD** (hébergement en UE, chiffrement TLS, gestion stricte des accès):contentReference[oaicite:4]{index=4}.
 
-![Image1pbi](https://github.com/user-attachments/assets/c48aaa9b-ca0c-4517-a7cc-2e779200ae78)
-![Image2pbi](https://github.com/user-attachments/assets/6bd213bf-4743-4595-9d2a-55af17d9835e)
+![Image1pbi](https://github.com/user-attachments/assets/c48aaa9b-ca0c-4517-a7cc-2e779200ae78) ![Image2pbi](https://github.com/user-attachments/assets/6bd213bf-4743-4595-9d2a-55af17d9835e)
 
 Date : **29/06/2025**
 
