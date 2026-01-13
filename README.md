@@ -20,12 +20,16 @@ Mettre en place une **plateforme Big Data scalable et sécurisée** permettant d
 
 ##  Architecture
 Pipeline de données automatisé :
-1. **Extraction** (APIs OpenWeatherMap & AQICN via Cloud Functions)
+1. **Extraction** (APIs OpenWeatherMap & AQICN via Cloud Functions) (dossier Extraction)
 2. **Ingestion** dans BigQuery (tables de staging)
+<img width="1414" height="553" alt="image" src="https://github.com/user-attachments/assets/809f6f14-f2fe-4e5a-b3b4-e243a3eb285e" />
 3. **Nettoyage & enrichissement** (SQL, gestion des données manquantes, calcul d’alertes)
 4. **DataMarts** agrégés par ville/jour
 5. **Visualisation** avec Power BI (indicateurs et dashboards dynamiques)
 6. **Monitoring & alertes** (Cloud Functions + Scheduler + Gmail/SendGrid)
+<img width="945" height="109" alt="image" src="https://github.com/user-attachments/assets/a26906d9-4e60-48fc-b67d-07b1517e4cca" />
+<img width="945" height="695" alt="image" src="https://github.com/user-attachments/assets/a0ca2f10-540e-4db4-84ed-7937fd00e197" />
+
 
 ![Architecture](./assets/architecture.png)
 
@@ -36,6 +40,8 @@ Pipeline de données automatisé :
   - Les tendances (pics de pollution, canicules, humidité, etc.)
 - **Module de Machine Learning (Random Forest via BigQuery ML/Vertex AI)** pour prédire les épisodes de pollution et déclencher des alertes préventives:contentReference[oaicite:3]{index=3}.
 - **Automatisation complète** du pipeline (extractions horaires, nettoyage, agrégation, alertes quotidiennes).
+- <img width="945" height="332" alt="image" src="https://github.com/user-attachments/assets/86bd70d2-f8fe-497b-a993-2952eac8c5ee" />
+
 - **Conformité RGPD** (hébergement en UE, chiffrement TLS, gestion stricte des accès):contentReference[oaicite:4]{index=4}.
 
 ![Image1pbi](https://github.com/user-attachments/assets/c48aaa9b-ca0c-4517-a7cc-2e779200ae78) ![Image2pbi](https://github.com/user-attachments/assets/6bd213bf-4743-4595-9d2a-55af17d9835e)
