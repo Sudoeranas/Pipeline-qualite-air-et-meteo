@@ -1,4 +1,4 @@
-#  GoodAir – Plateforme Big Data pour la qualité de l’air
+#  Création d'une platforme Big Data pour la qualité de l’air
 
 ##  Objectif
 Mettre en place une **plateforme Big Data scalable et sécurisée** permettant de :
