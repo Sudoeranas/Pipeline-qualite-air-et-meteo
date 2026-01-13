@@ -23,6 +23,7 @@ Pipeline de données automatisé :
 1. **Extraction** (APIs OpenWeatherMap & AQICN via Cloud Functions) (dossier Extraction)
 2. **Ingestion** dans BigQuery (tables de staging)
 <img width="1414" height="553" alt="image" src="https://github.com/user-attachments/assets/809f6f14-f2fe-4e5a-b3b4-e243a3eb285e" />
+
 3. **Nettoyage & enrichissement** (SQL, gestion des données manquantes, calcul d’alertes)
 4. **DataMarts** agrégés par ville/jour
 5. **Visualisation** avec Power BI (indicateurs et dashboards dynamiques)
